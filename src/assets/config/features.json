@@ -1,0 +1,16 @@
+[
+    {"access":"update",     "key": "superadmin",                    "text": "Super Admin",                  "group": "Super Admin"},
+    {"access":"update",     "key": "formUpdate",                    "text": "Edit Form",                    "group": "Forms"},
+    {"access":"download",   "key": "formResponseDownload",          "text": "Download",                     "group": "Forms"},
+    {"access":"update",     "key": "formNotificationUpdate",        "text": "Edit Notification",            "group": "Forms Notification"},
+    {"access":"update",     "key": "eventUpdate",                   "text": "Edit Calendars",               "group": "Calendars"},
+    {"access":"update",     "key": "eventNotificationUpdate",       "text": "Edit Notification",            "group": "Calendars Notification"},
+    {"access":"update",     "key": "institutionUpdate",             "text": "Edit",                         "group": "Institution"},
+    {"access":"update",     "key": "userUpdate",                    "text": "Edit User",                    "group": "Users"},
+    {"access":"update",     "key": "roleUpdate",                    "text": "Edit Role",                    "group": "Roles"},
+    {"access":"read",       "key": "analyticsRead",                 "text": "View Analytics",               "group": "Analytics"},
+    {"access":"read",       "key": "logActivityRead",               "text": "Activity",                     "group": "Logs (Activity)"},
+    {"access":"read",       "key": "logErrorRead",                  "text": "Error",                        "group": "Logs (Error)"},
+    {"access":"read",       "key": "logIntegrationRead",            "text": "Integration",                  "group": "Logs (Integration)"},
+    {"access":"read",       "key": "logNotificationRead",           "text": "Notification",                 "group": "Logs (Notification)"}
+]

@@ -1,0 +1,10 @@
+[
+    {"text": "Home",                    "icon": "mdi-home",                 "link": "/",                        "group": ""             },
+    {"text": "About Us",                "icon": "mdi-information",          "link": "/about-us",                "group": ""             },
+    {"text": "Our Team",                "icon": "mdi-account-group",        "link": "/our-team",                "group": ""             },
+    {"text": "About Pulse",             "icon": "mdi-heart-pulse",          "link": "/about-pulse",             "group": ""             },
+    {"text": "Pulse Dash",              "icon": "mdi-package-variant",      "link": "/pulse-dash",              "group": "Our Product"  },
+    {"text": "Pulse App",               "icon": "mdi-package-variant",      "link": "/pulse-app",               "group": "Our Product"  },
+    {"text": "Digital Transformation",  "icon": "mdi-head-snowflake",       "link": "/digital-transformation",  "group": ""             },
+    {"text": "Contact Us",              "icon": "mdi-phone",                "link": "/contact-us",              "group": ""             }
+]

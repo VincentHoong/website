@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    font-family: "Poppins", "Roboto" !important;
+}
+
+html {
+    overflow-y: auto;
+}
+
+body {
+	padding-top: env(safe-area-inset-top) !important;
+}
+
+header.v-app-bar, .v-dialog header.v-toolbar {
+	padding-top: env(safe-area-inset-top) !important;
+    box-sizing: content-box;
+}
+
+.v-navigation-drawer__content {
+	padding-top: env(safe-area-inset-top) !important;
+}
+
+.v-toolbar__content, .v-toolbar__extension {
+    box-sizing: border-box;
+}
+
+.v-dialog header.v-toolbar {
+    flex: initial;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.v-card > * {
+    word-break: break-word;
+}
+
+.photo {
+    width: 260px;
+    height: 260px;
+    margin: auto;
+}
+
+.icon {
+    width: 10vw;
+    margin: auto;
+}
+
+.phone {
+    height: 60vh
+}

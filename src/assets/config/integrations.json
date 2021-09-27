@@ -1,0 +1,170 @@
+[
+    {
+        "text"      : "Patient Query (QRY^A19)",
+        "value"     : "QRY^A19",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Admit (ADT^A01)",
+        "value"     : "ADT^A01",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Transfer (ADT^A02)",
+        "value"     : "ADT^A02",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Discharge (ADT^A03)",
+        "value"     : "ADT^A03",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Registration (ADT^A04)",
+        "value"     : "ADT^A04",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Pre-Admission (ADT^A05)",
+        "value"     : "ADT^A05",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Change an Outpatient to Inpatient (ADT^A0)",
+        "value"     : "ADT^A06",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Change an Inpatient to Outpatient (ADT^A07)",
+        "value"     : "ADT^A07",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Information Update (ADT^A08)",
+        "value"     : "ADT^A08",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Departing Tracking (ADT^A09)",
+        "value"     : "ADT^A09",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Patient Arriving Tracking (ADT^A10)",
+        "value"     : "ADT^A10",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Cancel Patient Admit (ADT^A11)",
+        "value"     : "ADT^A11",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Cancel Patient Transfer (ADT^A12)",
+        "value"     : "ADT^A12",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    },
+    {
+        "text"      : "Cancel Patient Discharge (ADT^A13)",
+        "value"     : "ADT^A13",
+        "fields"    : [
+            {"text": "Primary Doctor", "value": "primaryDoctor"},
+            {"text": "Patient Name", "value": "patientName"},
+            {"text": "Patient Gender", "value": "patientGender"},
+            {"text": "Patient Nationality", "value": "patientNationality"},
+            {"text": "Patient MRN", "value": "patientMrn"},
+            {"text": "Patient DOB", "value": "patientDob"}
+        ]
+    }
+]

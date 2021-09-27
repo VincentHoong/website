@@ -1,0 +1,31 @@
+[
+    {"description": "CREATE",           "type": "Forms Responses",     "text": "{{ data.status }} a form"},
+    {"description": "UPDATE",           "type": "Forms Responses",     "text": "{{ data.status }} a form {{ data.id }}"},
+    {"description": "CREATE UPDATE",    "type": "Forms Responses",     "text": "{{ data.status }} a form {{ data.formId }} by {{ data.userId }}"},
+    {"description": "DELETE",           "type": "Forms Responses",     "text": "Form Response {{ data.id }} deleted"},
+
+    {"description": "CREATE",           "type": "Roles",               "text": "Create Role {{ data.name }}"},
+    {"description": "UPDATE",           "type": "Roles",               "text": "Update {{ data.ANY }}"},
+    {"description": "CREATE UPDATE",    "type": "Roles",               "text": "{{ data.ANY }}"},
+    {"description": "DELETE",           "type": "Roles",               "text": "Role {{ data.id }} deleted"},
+
+    {"description": "CREATE",           "type": "Roles Forms",         "text": "Bind Form {{ data.formId }} to Role {{ data.roleId }}"},
+    {"description": "UPDATE",           "type": "Roles Forms",         "text": "Update Form {{ data.formId }} to Role {{ data.roleId }}"},
+    {"description": "CREATE UPDATE",    "type": "Roles Forms",         "text": "Bind Form {{ data.formId }} to Role {{ data.roleId }}"},
+    {"description": "DELETE",           "type": "Roles Forms",         "text": "Unbind Form {{ data.ANY }}"},
+
+    {"description": "CREATE",           "type": "Users",               "text": "Create User {{ data.username }}"},
+    {"description": "UPDATE",           "type": "Users",               "text": "Update {{ data.ANY }}"},
+    {"description": "CREATE UPDATE",    "type": "Users",               "text": "{{ data.ANY }}"},
+    {"description": "DELETE",           "type": "Users",               "text": "User {{ data.id }} deleted"},
+
+    {"description": "CREATE",           "type": "Users Institutions",  "text": "Bind Institution {{ data.institutionId }} to User {{ data.userId }}"},
+    {"description": "UPDATE",           "type": "Users Institutions",  "text": "Update Institution {{ data.institutionId }} to User {{ data.userId }}"},
+    {"description": "CREATE UPDATE",    "type": "Users Institutions",  "text": "Bind Institution {{ data.institutionId }} to User {{ data.userId }}"},
+    {"description": "DELETE",           "type": "Users Institutions",  "text": "Unbind User {{ data.ANY }}"},
+
+    {"description": "CREATE",           "type": "Users Roles",         "text": "Bind Role {{ data.roleId }} to User {{ data.userId }}"},
+    {"description": "UPDATE",           "type": "Users Roles",         "text": "Update Role {{ data.roleId }} to User {{ data.userId }}"},
+    {"description": "CREATE UPDATE",    "type": "Users Roles",         "text": "Bind Role {{ data.roleId }} to User {{ data.userId }}"},
+    {"description": "DELETE",           "type": "Users Roles",         "text": "Unbind User Role {{ data.ANY }}"}
+]
