@@ -18,18 +18,18 @@ export default {
             sections: [
                 {
                     background: 'background-white.png',
-                    class: this.$vuetify.breakpoint.mobile?'':'px-8',
+                    class: 'px-8',
                     height: 700,
                     cols: [
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h4 primary--text text-left font-weight-bold mx-8 mb-8',
+                                class: 'text-h4 primary--text text-left font-weight-bold mx-sm-8 mb-8',
                                 text: 'Digital Transformation strategies in hospitals are held back by data challenges'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-8',
+                                class: 'black--text text-left mx-sm-8',
                                 text: 'A high percentage of hospitals store data in silos, face data integration issues and poor legacy systems – making digital transformation very difficult.'
                             },
                             {
@@ -52,12 +52,12 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Hospitals need data that enables quick decision making'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: '“Traditionally, review committees in hospitals were making decisions based on things happening last month or trends from 60 days ago;<br>' +
                                         'Getting visibility of data in real-time, analyzing that quickly, and bringing that to the leaders so the CEO or CNO can act on it, is a best practice.”<br><br>' +
                                         '<b>Darin M. Vercillo, MD, co-founder, and CEO of Central Logic</b>'
@@ -66,7 +66,7 @@ export default {
                         [
                             {
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'':'ma-10',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'hospital-overview-2.png'
                             }
                         ]

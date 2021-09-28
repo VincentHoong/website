@@ -51,8 +51,9 @@ export default {
                         ],
                         [
                             {
+
                                 tag: 'v-img',
-                                class: '',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'laptop-mobile.png'
                             }
                         ]
@@ -69,8 +70,9 @@ export default {
                                 text: 'Data Capture<br><span class="transparent--text">_</span>'
                             },
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'mobile-forms-2.png'
                             },
                             {
@@ -93,8 +95,9 @@ export default {
                                 text: 'Data Analysis<br><span class="transparent--text">_</span>'
                             },
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'processor.png'
                             },
                             {
@@ -117,8 +120,9 @@ export default {
                                 text: 'Visualize Performance'
                             },
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'desktop-descriptive.png'
                             },
                             {
@@ -191,7 +195,7 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h4 primary--text text-left mb-8',
+                                class: 'text-h5 primary--text text-left mb-8',
                                 text: 'When your Doctors and Nurses are driven by data, you develop Certainty, Consistency and Confidence!'
                             },
                             {
@@ -211,7 +215,7 @@ export default {
                         [
                             {
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'':'ma-10',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'doctors-1.jpg'
                             },
                         ]
@@ -224,14 +228,14 @@ export default {
                         [
                             {
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'':'ma-10',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'doctors-patients-1.jpg'
                             },
                         ],
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h4 primary--text text-left mb-8',
+                                class: 'text-h5 primary--text text-left mb-8',
                                 text: 'The Pulse Analytics and Productivity Suite'
                             },
                             {

@@ -23,12 +23,12 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h4 primary--text text-left font-weight-bold mx-8 mb-8',
+                                class: 'text-h4 primary--text text-left font-weight-bold mx-sm-8 mb-8',
                                 text: 'Meet Our Team'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-8',
+                                class: 'black--text text-left mx-sm-8',
                                 text: 'The Team consists of experienced leaders with personalities aligned to a common objective of helping hospitals raise their operational standards. Passion, energy, responsibility and a proven track record of success make the Pulsers Team an irresistible force!'
                             },
                         ]

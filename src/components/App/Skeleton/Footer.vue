@@ -1,18 +1,18 @@
 <template>
   <div>
     <v-img src="@/assets/images/background-green.png" class="px-8">
-      <v-row justify="center" class="my-8">
+      <v-row justify="center" class="my-8 px-4">
         <v-col cols="12" sm="6">
           <div class="text-h5 primary--text mb-8">
             Should you have any queries, kindly provide your contact details as follows:
           </div>
           <v-form ref="form" @submit.prevent="sendEmail">
             <v-text-field label="Name *" outlined dense v-model="email.name" :rules="[fieldValidationRules.required]"></v-text-field>
-            <v-text-field label="E-mail *" outlined dense v-model="email.from" :rules="[fieldValidationRules.required]"></v-text-field>
-            <v-text-field label="Subject *" outlined dense v-model="email.subject" :rules="[fieldValidationRules.required]"></v-text-field>
+            <v-text-field label="Email Address *" outlined dense v-model="email.from" :rules="[fieldValidationRules.required]"></v-text-field>
+            <v-select label="Contact Reason *" outlined dense v-model="email.subject" :rules="[fieldValidationRules.required]" :items="selection.subject"></v-select>
             <v-textarea label="Message *" outlined dense no-resize v-model="email.message" :rules="[fieldValidationRules.required]"></v-textarea>
             <v-btn class="primary rounded-0" large type="submit" :loading="loading" :disabled="loading">
-              Send Message
+              Contact Us
               <v-icon right>mdi-send</v-icon>
             </v-btn>
           </v-form>
@@ -68,13 +68,22 @@ export default {
   data() {
     return {
       email: {
-        name: 'Vincent Hoong',
-        from: 'vyshoong9509@gmail.com',
-        subject: 'Hello Vincent',
-        message: 'I am testing SendGrid Features'
+        name: '',
+        from: '',
+        subject: 'Request a Demo',
+        message: ''
       },
       fieldValidationRules: fieldValidationRules,
-      loading: false
+      loading: false,
+      selection: {
+        subject: [
+          'General Infromation',
+          'Request a Demo',
+          'Contact Sales',
+          'Media',
+          'Partner'
+        ]
+      }
     }
   },
   methods: {

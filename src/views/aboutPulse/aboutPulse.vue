@@ -36,14 +36,14 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mx-8 mb-8',
+                                class: 'text-h5 primary--text font-weight-bold text-left mx-sm-8 mb-8',
                                 text: 'Our Pulse Analytics and Productivity Suite is a SaaS Platform for Hospitals.<br>' +
                                         'The Platform addresses key challenges in Hospitals:<br>' +
                                         'Data, Analytics, Communications and Timely Action.<br>'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-8',
+                                class: 'black--text text-left mx-sm-8',
                                 text: 'As Accreditation and Healthtech Consultants, we appreciate the need for a software solution to help raise hospital standards of care and patient safety.<br>' +
                                         'We also believe in the combined value of key performance metrics with data analysis.<br>' +
                                         'The Pulse Team has conceptualised, designed and engineered a revolutionary Healthtech solution for Hospitals – Pulse!'
@@ -53,7 +53,7 @@ export default {
                 },
                 {
                     background: 'background-red-red.png',
-                    class: '',
+                    class: 'px-8',
                     align: 'start',
                     cols: [
                         [

@@ -28,12 +28,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'primary--text text-left font-weight-bold mx-8 mb-8',
+                                class: 'primary--text text-left font-weight-bold mx-sm-8 mb-8',
                                 text: 'Vision – All Hospitals adopt Data-Driven Decision Making (D3M) practices'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left font-weight-bold mx-8',
+                                class: 'black--text text-left font-weight-bold mx-sm-8',
                                 text: 'Hospitals need clear visibility of operations, to take the right action, at the right time, for the right reason'
                             },
                         ],
@@ -45,12 +45,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'primary--text text-left font-weight-bold mx-8 mb-8',
+                                class: 'primary--text text-left font-weight-bold mx-sm-8 mb-8',
                                 text: 'Mission – Raising standards in Hospitals!<br><span class="transparent--text">_</span>'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left font-weight-bold mx-8',
+                                class: 'black--text text-left font-weight-bold mx-sm-8',
                                 text: 'Hospitals need clear visibility of operations, to take the right action, at the right time, for the right reason'
                             },
                         ],
@@ -62,20 +62,21 @@ export default {
                     cols: [
                         [
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'hospital-overview.png'
                             }
                         ],
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'A SaaS company with a difference.'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: 'Pulse Data Technologies (PDT) is a tech startup with a multi-disciplinary team with proven industry expertise and knowhow in hospital operations, global accreditation standards, data sciences and software development.<br><br>' +
                                       'We have developed our Pulse System with automated algorithms and global accreditation standards to drive your decision making to help hospitals achieve better leadership and governance, patient safety and quality of care!<br><br>' +
                                       'We believe in providing Doctors, Nurses and Employees with validated data in daily operations to enable timely and effective action for a better outcome and patient experience.'
@@ -90,12 +91,12 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'We look to future proofing hospitals.'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: '<ul><li>We support hospitals to gain good insight of what drives the operational standards.</li>' +
                                       '<li>We infuse these with data driven intelligence and data visualisation digital tools.</li>' +
                                       '<li>Collectively, these elements form the foundation for Digital Transformation of hospitals.</li></ul>'
@@ -103,8 +104,9 @@ export default {
                         ],
                         [
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'doctors-2.png'
                             }
                         ]
@@ -116,20 +118,21 @@ export default {
                     cols: [
                         [
                             {
+
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'ma-10':'',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'management-1.png'
                             }
                         ],
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'We are here to help you on your digital transformation journey!'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mb-4 mx-4',
+                                class: 'black--text text-left mb-4',
                                 text: 'Pulse Data Technologies is a long-term partner to hospitals by:'
                             },
                             {

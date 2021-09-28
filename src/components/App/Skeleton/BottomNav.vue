@@ -11,11 +11,7 @@
 export default {
   data() {
     return {
-      bottomNavs: [
-        {icon: 'mdi-finance', link: '/analytics'},
-        {icon: 'mdi-calendar', link: '/calendars'},
-        {icon: 'mdi-file-document', link: '/forms'},
-      ],
+      bottomNavs: [],
       settings: {}
     }
   }

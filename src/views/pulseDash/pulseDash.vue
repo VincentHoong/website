@@ -23,19 +23,19 @@ export default {
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'AI-driven analytics of your key performance metrics in a single platform'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: 'With PulseDash you can work smarter, spot trends faster, and predict outcomes accurately.'
                             }
                         ],
                         [
                             {
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'':'ma-10',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'desktop-overview.png'
                             }
                         ]
@@ -54,12 +54,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Data Capture Forms – DIY!<br><span class="transparent--text">_</span>'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mb-8 mx-4',
+                                class: 'black--text text-left mb-8',
                                 text: 'Our Pulse system allows you flexibility to customise data entry forms that suit your Hospitals environment and comfort levels of your personnel.'
                             },
                             {
@@ -69,12 +69,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Valuable Analytics for better insights'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: 'All data uploaded into the Pulse system automatically generates better insight into your Hospitals operations and is the basis for Predictive Analytics.'
                             }
                         ],
@@ -86,12 +86,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Effective Control of employee access and authority'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mb-8 mx-4',
+                                class: 'black--text text-left mb-8',
                                 text: 'You may select and control access, authority and permission levels to all sections within Pulse for greater responsibility and employee discipline.'
                             },
                             {
@@ -101,12 +101,12 @@ export default {
                             },
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Dynamic operational calendars and trackers'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: 'The Pulse dynamic calendar has alerts, reminders and tracking of key performance metrics activities that are required for better standards in your Hospital.'
                             }
                         ]
@@ -119,19 +119,19 @@ export default {
                         [
                             {
                                 tag: 'v-img',
-                                class: this.$vuetify.breakpoint.mobile?'':'ma-10',
+                                class: 'ma-sm-10 ma-4',
                                 src: 'desktop-descriptive-2.png'
                             }
                         ],
                         [
                             {
                                 tag: 'div',
-                                class: 'text-h5 primary--text font-weight-bold text-left mb-8 mx-4',
+                                class: 'text-h5 primary--text font-weight-bold text-left mb-8',
                                 text: 'Your hospital performance data, easily captured and analysed to drive you to action!'
                             },
                             {
                                 tag: 'div',
-                                class: 'black--text text-left mx-4',
+                                class: 'black--text text-left',
                                 text: 'Reveal the true power of your hospital’s data and bring clarity to each situation. The PulseDash allows you to analyze data visually at any granularity, without being a data expert and provides everything you need to help you deliver more through the use of greater insight.'
                             }
                         ]
