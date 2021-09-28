@@ -13,6 +13,14 @@ export default {
       ContentBuilder,
       Footer
     },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'Digitally mature hospitals integrate data and analytics into every level and aspect of their operations. When hospital leaders and personnel have visibility of key performance data when they need it most, they act decisively. Patient Safety And Quality Of Care are assured!'
+            }
+        ]
+    },
     data() {
         return {
             sections: [

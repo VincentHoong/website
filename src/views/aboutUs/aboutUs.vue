@@ -13,6 +13,14 @@ export default {
       ContentBuilder,
       Footer
     },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'We use global accreditation standards in our SaaS software to improve Leadership and Governance, Patient Safety and Quality of Care in hospitals. We use Algorithms and Analytics to monitor and measure Performance Metrics for quality improvement.'
+            }
+        ]
+    },
     data() {
         return {
             sections: [

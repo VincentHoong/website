@@ -13,6 +13,14 @@ export default {
       ContentBuilder,
       Footer
     },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'We have grown steadily from a 2 person team in 2018 to 10 over the past 3 years. We are passionate about Healthcare and are inspired by stories of Doctors and Nurses performing wonders! We hope to support hospitals deliver superior standards of care and patient safety.'
+            }
+        ]
+    },
     data() {
         return {
             sections: [

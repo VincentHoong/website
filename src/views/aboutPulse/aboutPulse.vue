@@ -13,6 +13,14 @@ export default {
       ContentBuilder,
       Footer
     },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'Pulse addresses key challenges in Hospitals - Data, Analytics, Communications and Action. Pulse is focused on driving positive action for improvement in Hospitals by enabling the right action for the right reason at the right time.'
+            }
+        ]
+    },
     data() {
         return {
             sections: [

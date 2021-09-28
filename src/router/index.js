@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueMeta from 'vue-meta'
 
 Vue.use(VueRouter)
+Vue.use(VueMeta)
 
 const routes = [
   {
@@ -53,8 +55,8 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  window.scrollTo(0, 0)
-  document.title = process.env.VUE_APP_COMPANY_NAME + ' - ' + to.name;
+  window.scrollTo(0, 0);
+  document.title = to.name + ' - ' + process.env.VUE_APP_COMPANY_NAME;
   next();
 })
 

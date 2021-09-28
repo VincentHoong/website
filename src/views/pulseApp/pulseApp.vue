@@ -13,6 +13,14 @@ export default {
       ContentBuilder,
       Footer
     },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'Accredited hospitals know the value of good data, analysis of data and quality improvement based on validated data. Your risk and quality practices are digitally transformed and patterns emerge - future proofing your hospital.'
+            }
+        ]
+    },
     data() {
         return {
             sections: [

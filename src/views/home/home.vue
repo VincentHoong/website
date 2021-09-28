@@ -10,8 +10,16 @@ import ContentBuilder from '@/components/ContentBuilder/ContentBuilder.vue'
 import Footer from '@/components/App/Skeleton/Footer.vue'
 export default {
     components: {
-      ContentBuilder,
-      Footer
+        ContentBuilder,
+        Footer
+    },
+    metaInfo: {
+        meta: [
+            {
+                name: 'description',
+                content: 'A Healthtech Platform supporting Digital Transformation of hospitals, focused on Leadership & Governance, Patient Safety and Quality of Care through Analytics, AI, Machine Learning and IoT.'
+            }
+        ]
     },
     data() {
         return {
