@@ -80,7 +80,7 @@ export default {
                             {
 
                                 tag: 'v-img',
-                                class: 'ma-sm-10 ma-4',
+                                class: 'ma-10 ma-sm-4',
                                 src: 'mobile-forms-2.png'
                             },
                             {
@@ -92,7 +92,7 @@ export default {
                         [
                             {
                                 tag: 'v-icon',
-                                class: 'text-center',
+                                class: 'text-h4 text-center',
                                 text: 'mdi-plus'
                             }
                         ],
@@ -105,7 +105,7 @@ export default {
                             {
 
                                 tag: 'v-img',
-                                class: 'ma-sm-10 ma-4',
+                                class: 'ma-10 ma-sm-4',
                                 src: 'processor.png'
                             },
                             {
@@ -117,7 +117,7 @@ export default {
                         [
                             {
                                 tag: 'v-icon',
-                                class: 'text-center',
+                                class: 'text-h4 text-center',
                                 text: 'mdi-plus'
                             }
                         ],
@@ -130,7 +130,7 @@ export default {
                             {
 
                                 tag: 'v-img',
-                                class: 'ma-sm-10 ma-4',
+                                class: 'ma-10 ma-sm-4',
                                 src: 'desktop-descriptive.png'
                             },
                             {
