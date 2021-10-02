@@ -13,7 +13,7 @@
                             :class="element.class" :src="element.src && require('@/assets/images/'+element.src)"
                             v-html="element.text">
                         </div>
-                        <v-img v-else-if="element.tag == 'v-img'"
+                        <v-img v-else-if="element.tag == 'v-img'" max-height="400"
                             :key="'section'+sectionKey+'col'+colKey+'element'+elementKey"
                             :class="element.class" :src="element.src && require('@/assets/images/'+element.src)"
                             contain>
