@@ -23,11 +23,9 @@
               <tr>
                 <td class="pa-2"><v-icon>mdi-map-marker</v-icon></td>
                 <td class="pa-2 black--text">
-                  Suite 762, Level 7, Oasis Wing,<br>
-                  Brunsfield Oasis Tower 3, Oasis Square,<br>
-                  No. 2 Jalan PJU 1A/7A, Oasis, Damansara<br>
-                  47301 Petaling Jaya,<br>
-                  Selangor, Malaysia.</td>
+                  Level 2, Tower 3, Avenue 7 Horizon 2,
+                  Bangsar South City, Bangsar South,
+                  59200 Kuala Lumpur</td>
               </tr>
               <tr>
                 <td class="pa-2"><v-icon>mdi-phone</v-icon></td>
