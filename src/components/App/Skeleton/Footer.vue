@@ -90,13 +90,23 @@ export default {
       let vm = this;
       if (vm.$refs.form.validate()) {
         vm.loading = true;
-        vm.curl("POST", "users/sendEmail", vm.email)
+        vm.curl("GET", "users/sendEmail", vm.email)
         .then((res) => {
-          vm.notify('Email sent!');
-          console.log(res);
+          if (res.data  === true) {
+            vm.notify('Email sent!');
+            vm.email = {
+              name: '',
+              from: '',
+              subject: 'Request a Demo',
+              message: ''
+            };
+            vm.$refs.form.resetValidation();
+          } else {
+            vm.notify(res.data);
+          }
         })
         .catch((error) => {
-          console.log(error);
+          vm.notify(error);
         })
         .finally(() => {
           vm.loading = false;

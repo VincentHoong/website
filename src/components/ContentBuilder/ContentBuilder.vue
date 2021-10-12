@@ -4,9 +4,10 @@
                     :height="$vuetify.breakpoint.mobile?'':(section.height || '500')" class="py-10"
                     :src="section.background && require('@/assets/images/'+section.background)"
                     :class="section.class">
-            <v-row :align="section.align || 'center'" justify="center">
-                <v-col v-for="(col, colKey) in section.cols" :key="'section'+sectionKey+'col'+colKey"
-                        cols="12" :sm="Math.floor(12/section.cols.length)" class="text-center">
+            <v-row v-for="(row, rowKey) in section.rows" :key="'section'+sectionKey+'row'+rowKey"
+                    :align="section.align || 'center'" justify="center">
+                <v-col v-for="(col, colKey) in row" :key="'section'+sectionKey+'col'+colKey"
+                        cols="12" :sm="Math.floor(12/row.length)" class="text-center">
                     <template v-for="(element, elementKey) in col">
                         <div v-if="element.tag == 'div'"
                             :key="'section'+sectionKey+'col'+colKey+'element'+elementKey"
