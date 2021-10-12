@@ -46,12 +46,14 @@ export default {
                     background: 'background-white.png',
                     class: 'px-8',
                     height: 650,
+                    align: 'top',
                     cols: [
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/andrey.png'
+                                src: 'team/andrey.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -70,7 +72,8 @@ export default {
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/noelani.png'
+                                src: 'team/noelani.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -91,12 +94,14 @@ export default {
                     background: 'background-white.png',
                     class: 'px-8',
                     height: 750,
+                    align: 'top',
                     cols: [
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/swati.png'
+                                src: 'team/swati.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -108,14 +113,15 @@ export default {
                             {
                                 tag: 'div',
                                 class: 'black--text text-left',
-                                text: 'Ms. Khandelwal is a graduate in Health Management with an MBA from IIM, India. She has consulted for hospitals in South Asia, Africa and the Middle East. Highly skilled and highly regarded for conducting Quality Measures, Operational Gaps, Internal Audits, Quality Improvement and Performance Metrics for Hospitals.<br><span class="transparent--text">_</span>'
+                                text: 'Ms. Khandelwal is a graduate in Health Management with an MBA from IIM, India. She has consulted for hospitals in South Asia, Africa and the Middle East. Highly skilled and highly regarded for conducting Quality Measures, Operational Gaps, Internal Audits, Quality Improvement and Performance Metrics for Hospitals.'
                             }
                         ],
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/harvinder.png'
+                                src: 'team/harvinder.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -134,7 +140,8 @@ export default {
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/subhra.png'
+                                src: 'team/subhra.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -153,19 +160,20 @@ export default {
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/priyadarshini.png'
+                                src: 'team/priyadarshini.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
                                 class: 'primary--text font-weight-bold mb-8 ' + (this.$vuetify.breakpoint.mobile?'':'text-left'),
                                 text: 'Priyadarshini Bishnu<br>' +
                                       'Co-Founder<br>' +
-                                      'Data Science and Analytics Education<br><span class="transparent--text">_</span>'
+                                      'Data Science and Analytics Education<span class="transparent--text">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _</span>'
                             },
                             {
                                 tag: 'div',
                                 class: 'black--text text-left',
-                                text: 'Priyadarshini Bishnu is a leading Data Science and Analytics Training exponent in India. She has led and developed one of India’s leading Analytics Training and Education institutions serving large multinationals. Priyadarshini specialises in the digitisation of educational programs and is a leading educational consultant.<br><span class="transparent--text">_</span>'
+                                text: 'Priyadarshini Bishnu is a leading Data Science and Analytics Training exponent in India. She has led and developed one of India’s leading Analytics Training and Education institutions serving large multinationals. Priyadarshini specialises in the digitisation of educational programs and is a leading educational consultant.'
                             }
                         ]
                     ]
@@ -174,12 +182,14 @@ export default {
                     background: 'background-white.png',
                     class: 'px-8',
                     height: 750,
+                    align: 'top',
                     cols: [
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/harish.png'
+                                src: 'team/harish.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
@@ -198,57 +208,60 @@ export default {
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/vincent.png'
+                                src: 'team/vincent.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
                                 class: 'primary--text font-weight-bold mb-8 ' + (this.$vuetify.breakpoint.mobile?'':'text-left'),
                                 text: 'Vincent Hoong<br>' +
                                       'Co-Founder<br>' +
-                                      'Technical Lead<br><span class="transparent--text">_</span>'
+                                      'Technical Lead<span class="transparent--text">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _</span>'
                             },
                             {
                                 tag: 'div',
                                 class: 'black--text text-left',
-                                text: 'Vincent has the rare ability to see the Big Picture and relate it to fine technical details. He has a rock solid and successful track record of serving the software needs of hospitals in Malaysia. Highly skilled in unraveling the complexities of workflows in hospitals, Vincent appreciates the technology challenges in hospitals, and, also has the solutions!<br><span class="transparent--text">_</span><br><span class="transparent--text">_</span>'
+                                text: 'Vincent has the rare ability to see the Big Picture and relate it to fine technical details. He has a rock solid and successful track record of serving the software needs of hospitals in Malaysia. Highly skilled in unraveling the complexities of workflows in hospitals, Vincent appreciates the technology challenges in hospitals, and, also has the solutions!'
                             }
                         ],
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/pavitra.png'
+                                src: 'team/pavitra.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
                                 class: 'primary--text font-weight-bold mb-8 ' + (this.$vuetify.breakpoint.mobile?'':'text-left'),
                                 text: 'Pavitra Siva Nayaham<br>' +
                                       'Co-Founder<br>' +
-                                      'Head of Client Success<br><span class="transparent--text">_</span>'
+                                      'Head of Client Success<span class="transparent--text">_ _ _ _ _ _ _ _ _</span>'
                             },
                             {
                                 tag: 'div',
                                 class: 'black--text text-left',
-                                text: 'Pavitra has the energy, passion and cool-head needed to drive technology adoption in hospitals. Pavitra is well liked in the industry and well respected for her impressive track record of success in serving hospitals in Malaysia. Pavitra understands the high pressure environment of hospitals and has the client’s interests in mind which guarantees success!<br><span class="transparent--text">_</span><br><span class="transparent--text">_</span>'
+                                text: 'Pavitra has the energy, passion and cool-head needed to drive technology adoption in hospitals. Pavitra is well liked in the industry and well respected for her impressive track record of success in serving hospitals in Malaysia. Pavitra understands the high pressure environment of hospitals and has the client’s interests in mind which guarantees success!'
                             }
                         ],
                         [
                             {
                                 tag: 'v-img',
                                 class: 'photo mb-4',
-                                src: 'team/iqbal.png'
+                                src: 'team/iqbal.png',
+                                height: 250
                             },
                             {
                                 tag: 'div',
                                 class: 'primary--text font-weight-bold mb-8 ' + (this.$vuetify.breakpoint.mobile?'':'text-left'),
                                 text: 'Iqbal Yusoff<br>' +
                                       'Co-Founder<br>' +
-                                      'Head of Product<br><span class="transparent--text">_</span>'
+                                      'Head of Product<span class="transparent--text">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _</span>'
                             },
                             {
                                 tag: 'div',
                                 class: 'black--text text-left',
-                                text: 'Iqbal, an Engineer by training, brings with him the technical eye for detail and planning. Well-read and passionate about healthcare and serving hospitals, Iqbal has developed a reputation for careful planning, detailed analysis, sound decision making and execution! Iqbal is highly skilled in perceiving the needs of hospital clients and a welcome asset to our Team!<br><span class="transparent--text">_</span><br><span class="transparent--text">_</span><br><span class="transparent--text">_</span>'
+                                text: 'Iqbal, an Engineer by training, brings with him the technical eye for detail and planning. Well-read and passionate about healthcare and serving hospitals, Iqbal has developed a reputation for careful planning, detailed analysis, sound decision making and execution! Iqbal is highly skilled in perceiving the needs of hospital clients and a welcome asset to our Team!'
                             }
                         ]
                     ]

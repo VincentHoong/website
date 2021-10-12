@@ -23,8 +23,9 @@
               <tr>
                 <td class="pa-2"><v-icon>mdi-map-marker</v-icon></td>
                 <td class="pa-2 black--text">
-                  Level 2, Tower 3, Avenue 7 Horizon 2,
-                  Bangsar South City, Bangsar South,
+                  Common Ground Bangsar South<br>
+                  Level 2, Tower 3, Avenue 7 Horizon 2,<br>
+                  Bangsar South City, Bangsar South,<br>
                   59200 Kuala Lumpur</td>
               </tr>
               <tr>

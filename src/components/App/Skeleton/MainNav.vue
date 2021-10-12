@@ -12,7 +12,7 @@
       <v-btn v-else icon @click="$router.go(-1)"
         ><v-icon>mdi-arrow-left</v-icon></v-btn
       >
-      <v-img src="@/assets/images/banner-invert.png" contain width="1vw" height="100%"></v-img>
+      <v-img src="@/assets/images/banner-invert.png" contain width="1vw" height="100%" class="ml-n6"></v-img>
     </template>
     <template v-else>
       <v-img src="@/assets/images/banner-invert.png" contain

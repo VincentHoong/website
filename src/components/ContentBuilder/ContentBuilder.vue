@@ -13,7 +13,7 @@
                             :class="element.class" :src="element.src && require('@/assets/images/'+element.src)"
                             v-html="element.text">
                         </div>
-                        <v-img v-else-if="element.tag == 'v-img'" max-height="400"
+                        <v-img v-else-if="element.tag == 'v-img'" max-height="400" :height="element.height"
                             :key="'section'+sectionKey+'col'+colKey+'element'+elementKey"
                             :class="element.class" :src="element.src && require('@/assets/images/'+element.src)"
                             contain>
@@ -64,7 +64,7 @@
                             </template>
                         </v-tabs>
                         <v-card v-else-if="element.tag == 'v-card'"
-                            :key="'section'+sectionKey+'col'+colKey+'element'+elementKey"
+                            :key="'section'+sectionKey+'col'+colKey+'element'+elementKey" :height="$vuetify.breakpoint.mobile?undefined:'300'"
                             :class="element.class" :src="element.src && require('@/assets/images/'+element.src)">
                             <v-card-title :class="'text-left ' + element.titleClass" v-html="element.title"></v-card-title>
                             <v-card-text :class="'text-left ' + element.textClass" v-html="element.text"></v-card-text>
