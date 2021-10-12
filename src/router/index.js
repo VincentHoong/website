@@ -7,6 +7,11 @@ Vue.use(VueMeta)
 
 const routes = [
   {
+    path: '*',
+    name: 'Error 404',
+    component: () => import('../views/404/404.vue')
+  },
+  {
     path: '/about-pulse',
     name: 'About Pulse',
     component: () => import('@/views/aboutPulse/aboutPulse.vue')
