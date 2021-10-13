@@ -42,6 +42,11 @@ const routes = [
     component: () => import('@/views/ourTeam/ourTeam.vue')
   },
   {
+    path: '/privacy-policy',
+    name: 'Privacy Policy',
+    component: () => import('@/views/privacyPolicy/privacyPolicy.vue')
+  },
+  {
     path: '/pulse-app',
     name: 'Pulse App',
     component: () => import('@/views/pulseApp/pulseApp.vue')

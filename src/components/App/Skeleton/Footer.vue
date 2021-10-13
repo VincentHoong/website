@@ -30,7 +30,7 @@
               </tr>
               <tr>
                 <td class="pa-2"><v-icon>mdi-phone</v-icon></td>
-                <td class="pa-2 black--text">+603 7848 5942</td>
+                <td class="pa-2 black--text">+603 2711 2736</td>
               </tr>
               <tr>
                 <td class="pa-2"><v-icon>mdi-email</v-icon></td>
