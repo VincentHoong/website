@@ -43,7 +43,7 @@ export default {
                                 {
                                     tag: 'div',
                                     class: 'black--text text-left font-weight-bold mx-sm-8',
-                                    text: 'Hospitals need clear visibility of operations, to take the right action, at the right time, for the right reason'
+                                    text: 'That all hospitals have digital skills and tools to monitor, measure, analyse and predict operational performance to support digital transformation strategies.'
                                 },
                             ],
                             [
@@ -60,7 +60,7 @@ export default {
                                 {
                                     tag: 'div',
                                     class: 'black--text text-left font-weight-bold mx-sm-8',
-                                    text: 'Hospitals need clear visibility of operations, to take the right action, at the right time, for the right reason'
+                                    text: 'To support hospitals in raising their standards of Leadership & Governance, Patient Safety and Quality of Care.'
                                 },
                             ],
                         ]
